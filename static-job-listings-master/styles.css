@@ -19,7 +19,6 @@ body {
 main {
     display: block;
     max-width: 75%;
-    min-height: 30rem;
     margin: 2rem auto;
 }
 
@@ -51,7 +50,7 @@ header > img{
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
     width: 41%;
     padding-left: 1.2rem;
@@ -74,7 +73,6 @@ header > img{
     margin-right: 0.7rem;
     color:hsl(180, 29%, 50%);
     font-weight: 700;
-    /* padding: 0.2rem 0.2rem 0.2rem 0; */
 }
 
 .bottom-info{
@@ -105,8 +103,9 @@ header > img{
 }
 
 .job-title{
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 700;
+    margin-top: 0.4rem;
 }
 
 .bottom-info{
@@ -125,20 +124,20 @@ header > img{
 
 .stack-item{
     vertical-align: middle;
-    margin: auto 0.5rem;
+    margin: auto 0.3rem;
     background-color: hsl(180, 52%, 96%);
-    padding: 0.6rem;
+    padding: 0.2rem;
     font-weight: 700;
     color: hsl(180, 29%, 50%);
     border-radius: 0.6rem;
 }
 
 
-@media (max-width: 67rem) {
+/* @media (max-width: 67rem) {
     .display-card{
         display: block;
     }
-}
+} */
 
 .left-border{
     border-left: 0.4rem solid hsl(180, 29%, 50%);
